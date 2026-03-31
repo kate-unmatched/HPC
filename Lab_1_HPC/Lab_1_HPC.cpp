@@ -16,7 +16,7 @@ int main() {
         << std::setw(15) << "CPU (ms)"
         << std::setw(18) << "GPU kernel (ms)"
         << std::setw(15) << "Speedup"
-        << std::setw(10) << "Result"
+        << std::setw(10) << "Verification"
         << std::endl;
 
     std::cout << std::string(65, '-') << std::endl;

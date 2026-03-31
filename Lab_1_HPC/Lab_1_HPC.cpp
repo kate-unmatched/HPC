@@ -47,7 +47,7 @@ int main() {
         // Ускорение
         double speedup = cpuDuration.count() / gpuKernelTimeMs;
 
-        // Таблица
+        // Таблица результатов
         std::cout << std::left
             << std::setw(10) << matrixSize
             << std::setw(15) << std::fixed << std::setprecision(3) << cpuDuration.count()
